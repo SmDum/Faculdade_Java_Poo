@@ -38,14 +38,14 @@ public class gato {
  * Classe Gato:
  * 
  * Atributos:
- * Nome
- * Raça
- * Idade
- * Cor
+ * + Nome
+ * + Raça
+ * + Idade
+ * + Cor
  * 
  * Métodos:
- * Miar()
- * PassarConsulta()
- * StatusInternado()
+ * + Miar()
+ * + PassarConsulta()
+ * + StatusInternado()
  * 
  */
