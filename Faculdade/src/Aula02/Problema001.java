@@ -2,7 +2,7 @@ package Aula02;
 
 import java.util.Scanner;
 
-public class Problema1 {
+public class Problema001 {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
@@ -19,5 +19,6 @@ public class Problema1 {
 
         System.out.println(nome + " tem " + anos + " e terá " + anos2024 + " em 2024.");
 
+        scanner.close();
     }
 }
