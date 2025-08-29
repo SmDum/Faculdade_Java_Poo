@@ -8,6 +8,7 @@ public class main1_2 {
         calc.gorjeta = 0.2;
     
         calc.findTotal();
+        calc.imprimir();
     }
 
 }

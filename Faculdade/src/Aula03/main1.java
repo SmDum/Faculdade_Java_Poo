@@ -8,6 +8,13 @@ public class main1 {
         double total  = originalPrice * (1+tax+gorjeta);
         System.out.println("Total: " + total);
     }
+
+    public void imprimir() {
+        System.out.println("Preço Original = " + originalPrice);
+        System.out.println("Taxa = " + tax);
+        System.out.println("Gorjeta = " + gorjeta);
+    }
 }
+
 
 
