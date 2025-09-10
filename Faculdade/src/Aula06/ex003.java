@@ -9,7 +9,7 @@ public class ex003 {
         System.out.println(p1);
         System.out.println(p2);
 
-        System.out.println("Depois da Concatenacao");
-        System.out.println(p1.concat(p2));
+        System.out.print("Depois da Concatenacao: ");
+        System.out.println(p1 + p2);
     }
 }
