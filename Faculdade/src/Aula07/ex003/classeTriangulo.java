@@ -9,11 +9,11 @@ public class classeTriangulo {
     {
         if((x+y)>z || (x+z)>y || (y+z)>x)
         {
-            return false;
+            return true;
         }
         else
         {
-            return true;
+            return false;
         }
     }
 

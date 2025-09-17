@@ -19,7 +19,7 @@ public class main {
         {
             System.out.println("Eh um triangulo!");
             System.out.println("Classificacao: ");
-            t1.classificar();
+            System.out.println(t1.classificar());
         }
         else
         {
