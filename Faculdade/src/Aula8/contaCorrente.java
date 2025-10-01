@@ -46,4 +46,34 @@ public class contaCorrente {
         System.out.println("Saldo: " + Saldo);
         System.out.println("Juros: " + Juros);
     }
+
+    void depositar(double valor) {
+        Saldo += valor;
+    }
+
+    void sacar(double valor) {
+        if (valor <= Saldo) {
+            Saldo -= valor;
+        } else {
+            System.out.println("Saldo insuficiente");
+        }
+    }
+
+    void calcularJuros() {
+        Saldo += Saldo * Juros;
+    }
+
+    void transferir(contaCorrente contaDestino, double valor) {
+        if (valor <= Saldo) {
+            Saldo -= valor;
+            contaDestino.depositar(valor);
+        } else {
+            System.out.println("Saldo insuficiente");
+        }
+    }
+
+    void exibirInformacoes() {
+        System.out.println("Nome: " + Nome);
+        System.out.println("Saldo: " + Saldo);
+    }
 }
