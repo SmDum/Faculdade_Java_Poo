@@ -24,7 +24,7 @@ public class Equipamento {
         System.out.println("Nome: " + this.nome);
         System.out.println("Tipo: " + this.tipo);
         System.out.println("Fabricante: " + this.fabricante);
-        System.out.println("Ano de Fabricação: " + this.anoFabricacao);
+        System.out.println("Ano de Fabricacao: " + this.anoFabricacao);
         System.out.println("Valor: R$ " + this.valor);
         System.out.println("---------------------");
     }
