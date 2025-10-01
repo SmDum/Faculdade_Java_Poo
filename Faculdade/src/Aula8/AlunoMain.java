@@ -22,13 +22,17 @@ public class AlunoMain {
         aluno2.email = "samuel@gmail.com";
 
         if (x == y) {
-            System.out.println("x é igual a y");
+            System.out.println("x eh igual a y");
+        }
+        else{
+            System.out.println("x eh diferente de y");
         }
 
         if (aluno1 == aluno2) {
-            System.out.println("São o mesmo objeto");
+            System.out.println("Sao o mesmo objeto");
         }
-
-
+        else{
+            System.out.println("Sao objetos diferentes");
+        }
     }
 }
